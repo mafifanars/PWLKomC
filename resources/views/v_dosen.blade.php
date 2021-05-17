@@ -10,13 +10,13 @@
 @extends('layout.v_template')
     @section('content')
 
-    <h1>Halaman Dosen</h1>
+    <h1>Ini Halaman Dosen</h1>
 
     <?php foreach( $dosen as $dsn ): ?>
     <ul>
     <li>NIP :{{($dsn['nip'])}}</li>
     <li>Nama :{{($dsn['nama'])}}</li>
-    <li>Mata Kuliah :{{($dsn['matkul'])}}</li> 
+    <li>Mata Kuliah :{{($dsn['matkul'])}}</li>
     </ul>
     <?php endforeach; ?>
 
